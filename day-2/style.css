@@ -23,6 +23,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     gap: .8em;
     width: 25em;
     height: 25em;
@@ -31,7 +32,6 @@ main{
 }
 
 .bar {
-    cursor: pointer;
     width: 5em;
     height: .5em;
     border-radius: 4px;
