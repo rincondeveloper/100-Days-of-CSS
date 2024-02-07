@@ -16,6 +16,10 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 25em;
+    height: 25em;
+    border-radius: 5px;
+    background-color: #3faf82;
 }
 
 .container {
@@ -25,10 +29,8 @@ main{
     align-items: center;
     cursor: pointer;
     gap: .8em;
-    width: 25em;
-    height: 25em;
+    padding: 5px;
     border-radius: .5em;
-    background-color: #3faf82;
 }
 
 .bar {
