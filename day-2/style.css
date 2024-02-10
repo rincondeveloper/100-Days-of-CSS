@@ -31,6 +31,23 @@ main{
     gap: .8em;
     padding: 5px;
     border-radius: .5em;
+} 
+.container.active {
+    cursor: pointer;
+}
+
+.container.active .bar-1,
+.container.active .bar-2,
+.container.active .bar-3 {
+    position: absolute;
+}
+
+.container.active .bar-1,
+.container.active .bar-3 {
+    transform: rotate(-45deg);
+}
+.container.active .bar-2 {
+    transform: rotate(45deg);
 }
 
 .bar {
@@ -40,3 +57,11 @@ main{
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.415) 0px 5px 15px;
 }
+
+.bar-1, 
+.bar-2,
+.bar-3 {
+    transition: all .3s ease-in-out;
+}
+
+
